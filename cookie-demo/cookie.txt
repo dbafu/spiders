@@ -1,0 +1,9 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+www.xuetangx.com	FALSE	/	FALSE		aliyungf_tc	AQAAAIz3FFQ5xgUAay7Cb7U3chiA59OC
+www.xuetangx.com	FALSE	/	FALSE	1538626910	csrftoken	enYR2GBPOlHrJz5RYIrQoCg5uXL8UEhb
+www.xuetangx.com	FALSE	/	FALSE	1507782110	edxloggedin	true
+www.xuetangx.com	FALSE	/	FALSE	1507782110	sessionid	2e34dffefb3b0b3819ae9f69db550fb8
+www.xuetangx.com	FALSE	/	FALSE	1507782110	user_id	484983
