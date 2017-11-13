@@ -8,8 +8,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 
-username = '15368666371'  # 智联账号  我的智联账号也是手机号
-password = '6i6ob6i870203'  # 智联账号密码   密码故意写错，防止你登陆我账号
+username = '15368666377'  # 前程无忧账号  我的智联账号也是手机号
+password = '6i6ob6i870203'  # 前程无忧账号密码   密码故意写错，防止你登陆我账号
 
 Job_KeyWords = ['化学',]
 # Job_KeyWords = ['化学 检测', '化学 研究', '化学 分析', '化学 测试', '化学 研究员', '化学 科研', '化学 管理', '化学 仪器']
