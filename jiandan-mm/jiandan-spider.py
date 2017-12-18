@@ -26,9 +26,14 @@ def get_img(url, referer, host, filename):
         'Referer': referer
       }
     print('正在下载图片：', url)
+
     img = requests.get(url, headers = headers)
-    img = Image.open(BytesIO(img.content))
-    img.save(filename)
+    if 'gif' in filename:
+        img = Image.open(BytesIO(img.content))
+        img.save(filename)
+    else:
+        with open(filename, 'wb') as f:
+            f.write(img.content)
     img_count += 1
     print('下载了', img_count, '张图片')
 
@@ -39,7 +44,7 @@ if not os.path.exists(folder):
   os.mkdir(folder)
 os.chdir(folder)
 
-urls = ["http://jandan.net/ooxx/page-{}#comments".format(str(i)) for i in range(208, 391)]
+urls = ["http://jandan.net/ooxx/page-{}#comments".format(str(i)) for i in range(263, 391)]
 
 
 for url in urls:
